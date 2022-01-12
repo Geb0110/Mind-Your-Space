@@ -24,3 +24,4 @@ Credits
 
 * Design and development: **Reyansh** - https://github.com/Geb0110
 * Photos used in website: **Unsplash** - http://unsplash.com
+* Visit the *website* now -  https://geb0110.github.io/Mind-Your-Space/
