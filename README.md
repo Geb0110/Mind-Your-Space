@@ -6,7 +6,7 @@ Get a firm knowledge on space science
 License
 -------
 **Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
-*Just copy
+#Just copy
 Copyright (c) 2022 Reyansh - https://github.com/Geb0110/Mind-Your-Space.git
 License: MIT**
 
