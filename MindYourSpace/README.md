@@ -1,8 +1,7 @@
-Progressus - Free business/corporate Bootstrap template
+Mind-Your-Space
 =============
 
-Progressus is a free, responsive, nice-looking business template based on Bootstrap HTML/CSS framework. 
-
+Get a firm knowledge on space science
 
 License
 -------
@@ -12,21 +11,11 @@ License
 Features
 -----------
 
-* Easy to use, fat-free HTML and CSS code.
-* 7 ready-made templates for most common tasks
-* Responsive design
-* High overral quality, the template does worth to be premium.
-
-
-Bug tracker
------------
-
-Found a bug? Please create an issue here on GitHub! 
-https://github.com/pozh/Progressus/issues
-
+* User-friendly
+* Crisp information
+* comment section
 
 Credits
 -------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
+* Design and development: **Reyansh** - https://github.com/Geb0110
 * Photos used in template: **Unsplash** - http://unsplash.com
-* More free templates by Sergey: http://gettemplate.com
