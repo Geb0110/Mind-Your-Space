@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Mind your Space </title>
+
+	<link rel="icon" href="assets/images/FaviconLogo.png" type="image/x-icon">
+	
+	<link crossorigin="anonymous" rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body backgroundcolor = "black" class="home">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom nav" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> y <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img class = "logo"src="assets/images/FaviconLogo.png"alt="Awesome"></a>
+				
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="navbar-nav pull-right">
+					<li class="active"><a class="mr-5 hover:text-white" href="#">Home</a></li>
+					<li><a class="mr-5 hover:text-white" href="about.html">About</a></li>
+					
+					<li><a class="mr-5 hover:text-white" href="contact.html">Contact</a></li>
+					
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="head">
+		<div class="container">		
+            <div class="row">
+                    <h1 class="lead">Mind Your Space</h1>
+            </div>
+		</div>
+	</header>
+	<!-- /Header -->
+	<style>
+		body {
+ --nav-height: 100px;   
+  
+			}
+
+		.nav {
+		 width: 100%;
+ 		 height: var(--nav-height);
+ 		 position: fixed;
+			}	
+		.nav--hidden {
+ 			transform: translateY(calc(-1 * var(--nav-height)));
+ 			box-shadow: none;
+					}
+		#img.size{
+				
+				height: 30em;
+				width: "400%";
+		}
+		.logo{
+				height: 3em;
+				width: 3em;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+		}	
+		.imgL
+		{
+			height: "150%";width: "100%";
+
+		}	
+		.paddingB
+		{
+			margin-top: 99999px;
+		}	
+   </style>
+	<!-- Intro -->
+	<div class=" text-center list">
+		<br>
+		<!--img left neutron star-->
+		<section class="text-gray-600 body-font reveal ">
+			<div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			  <div class="">
+				<img id = "img"class=" size object-cover object-center rounded" alt="hero" src="assets/images/neutron-star.jpg">
+			  </div>
+			  <div class=" reveal g:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+				<h1 class="thin">Neutron Star
+				  <br class="hidden lg:inline-block">
+				</h1>
+				<h3><p>At the end of a stars life, it explodes into a supernova, and if the star isn't that huge/massive, its core will
+
+				</p>
+					<p class="text-muted">collapse, eventually ending up as a tiny and hyperdense body with nearly as same mass as our Sun. These hyperdense cores of detonated stars are now Neutron Stars, these are one </p>
+				</h3>
+				<div class="flex justify-center">
+					<h4><a href="neutron-star.html">Read more</a></h4>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		  <!--/img left-->		  
+		  <br>
+		  <!--img right blackhole-->
+		  <section class="text-gray-600 body-font  reveal ">
+			<div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			  <div class=" reveal lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center border-gray-200 ">
+				<h1 class="thin">Black Holes
+				  <br class="hidden lg:inline-block">
+				</h1>
+				<h3><p class="text-muted">Black holes are SO dense and have such an IMMENSE gravitational pull, such that even light cannot escape the pull.
+
+					The first body identified to be a black hole is </p></h3>
+				<div class="flex justify-center ">
+					<h4><a href="black-hole.html">Read more</a></h4>
+				</div>
+			  </div>
+			  <div class="">
+				<img id = "img" class= "size object-cover object-center rounded" alt="hero" src="assets/images/black-hole.jpg">
+			  </div>
+			</div>
+		  </section>
+		  <!--/img right -->
+		  <br>  
+		  <!--img left1 hypernova-->
+		<section class="text-gray-600 body-font reveal ">
+			<div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			  <div class="">
+				<img id = "img"class=" size object-cover object-center rounded" alt="hero" src="assets/images/hypernova.jpg">
+			  </div>
+			  <div class=" reveal g:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+				<h1 class="thin">Hypernova
+				  <br class="hidden lg:inline-block">
+				</h1>
+				<h3><p>
+					Many of us wonder, whether there ACTUALLY is a difference between a supernova and a hypernova, fact is that the difference is far
+				</p>
+					<p class="text-muted"> </p>
+				</h3>
+				<div class="flex justify-center">
+					<h4><a href="hypernova.html">Read more</a></h4>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		  <!--/img left1-->
+				  
+		<br>
+		<!--img right1 how satell-->
+		<section class="text-gray-600 body-font  reveal list-element ">
+		  <div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			<div class=" reveal lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center border-gray-200 ">
+			  <h1 class="thin">How satellite stays in it's orbit?
+				<br class="hidden lg:inline-block">
+			  </h1>
+			  <h3><p class="text-muted">
+				Well this is a question which most of the people new to astronomy and astrophysics have, HOW does a space probe stay in orbit around a celestial body without having constant propulsion.
+
+				The answer to this, is a very simple one, which needs nothing more than
+			  </p></h3>
+			  <div class="flex justify-center ">
+				  <h4><a href="how_satellite_stays.html">Read more</a></h4>
+			  </div>
+			</div>
+			<div class="">
+			  <img id = "img" class= "size object-cover object-center rounded" alt="hero" src="assets/images/satellite_bg.jpg">
+			</div>
+		  </div>
+		</section>
+		<!--/img right1 -->
+		<br>  
+		<!--img left2 foundation of gravity-->
+	  <section class="text-gray-600 body-font reveal list-element">
+		  <div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			<div class="">
+			  <img id = "img"class=" size object-cover object-center rounded" alt="hero" src="assets/images/newton.jpg">
+			</div>
+			<div class=" reveal g:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+			  <h1 class="thin">Foundation of Gravity
+				<br class="hidden lg:inline-block">
+			  </h1>
+			  <h3><p>
+				When people hear "gravity" or "theories of gravity", it's often attributed to Sir Isaac Newton, or Johannes Kepler. 
+				But many of these theories might not have been possible, without 
+				
+			  </p>
+				  
+			  </h3>
+			  <div class="flex justify-center">
+				  <h4><a href="gravity.html">Read more</a></h4>
+			  </div>
+			</div>
+		  </div>
+		</section>
+		<br>
+		<!--/img left2-->  
+		<!--img right2 Magnetosphere-->
+		<section class="text-gray-600 body-font  reveal list-element ">
+			<div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			  <div class=" reveal lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center border-gray-200 ">
+				<h1 class="thin">Magnetosphere
+				  <br class="hidden lg:inline-block">
+				</h1>
+				<h3><p class="text-muted">Being one of the most interesting fields and regions in space, the magnetosphere never fails to evoke a sense of curiosity within the minds of astronomers and space freaks.</p></h3>
+				<div class="flex justify-center ">
+					<h4><a href="Magnetosphere.html">Read more</a></h4>
+				</div>
+			  </div>
+			  <div class="">
+				<img id = "img" class= "size object-cover object-center rounded" alt="hero" src="assets/images/magnetosphere.jpg">
+			  </div>
+			</div>
+		  </section>
+		  <!--/img right2 -->
+		  <br>  
+		  <!--img left3 heliosphere-->
+		<section class="text-gray-600 body-font reveal list-element">
+			<div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			  <div class="">
+				<img id = "img"class=" size object-cover object-center rounded" alt="hero" src="assets/images/heliospher_bg.jpg">
+			  </div>
+			  <div class=" reveal g:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+				<h1 class="thin">Heliosphere
+				  <br class="hidden lg:inline-block">
+				</h1>
+				<h3><p>The heliosphere, in short is the magnetosphere and the outermost atmospheric layer of the Sun. It takes the shape of a huge bubble-shaped body in space.
+
+					The heliosphere is continuously "inflated" due to
+  
+				</p>
+					
+				
+				<div class="flex justify-center">
+					<h4><a href="heliosphere.html">Read more</a></h4>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		  <!--/img left3-->  
+		  <br>
+		  <!--img right3 lagrange-->
+		<section class="text-gray-600 body-font  reveal list-element ">
+			<div class=" container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-gray-200 border p-4 rounded-lg">
+			  <div class=" reveal lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center border-gray-200 ">
+				<h1 class="thin">Lagrange
+				  <br class="hidden lg:inline-block">
+				</h1>
+				<h3><p class="text-muted">Lagrange points are points in space where objects tend to stay still. The science behind this is very thought-provoking.
+
+					Basically, Lagrange points are regions in space where the g-forces of a two body system like Earth and </p></h3>
+				<div class="flex justify-center ">
+					<h4><a href="lagrange.html">Read more</a></h4>
+				</div>
+			  </div>
+			  <div class="">
+				<img id = "img" class= "size object-cover object-center rounded" alt="hero" src="assets/images/lagrange.jpg">
+			  </div>
+			</div>
+		  </section>
+		  <!--/img right3 -->
+		   
+			
+		 
+		  
+
+	<!-- Highlights - jumbotron -->
+	</div>
+	<a class="btn btn-action btn-lg " id = "loadmore" role="button">Load more</a>
+	<!-- /Intro-->
+	
+	<style>
+	
+	
+	
+	  </style>
+	  
+	
+	<div id="disqus_thread"></div>
+	<script>
+
+		/**
+		embded comment section from disqis
+		};
+		*/
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://mindursp.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date())
+		(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	
+	<footer id="footer" class="top-space ">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>+91 95388 48338<br>
+								<a href="mailto:#">reyansh.ranjan07@gmail.com</a><br>
+								<br>
+								#F - 1124, Brigade Lakefront, Near SAP labs, EPIP Zone
+								,Mahadevpura 
+							</p>	
+						</div>
+					</div>				
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2022,  Reyansh. 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+	
+
+	
+	<script src = "h.js"></script>
+</body>
+</html>

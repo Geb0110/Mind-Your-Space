@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>About </title>
+
+	<link rel="icon" href="assets/images/FaviconLogo.png" type="image/x-icon">
+	
+	<link crossorigin="anonymous" rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body class="home">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom nav" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> y <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img class = "logo"src="assets/images/FaviconLogo.png"alt="Awesome"></a>
+				
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="navbar-nav pull-right">
+					<li ><a class="mr-5 hover:text-white" href="index.html">Home</a></li>
+					<li class="active"><a class="mr-5 hover:text-white" href="about.html">About</a></li>
+					
+					<li ><a class="mr-5 hover:text-white" href="contact.html">Contact</a></li>
+					
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="head" class="secondary">
+		<div class="container">		
+            <div class="row">
+                    <h1 class="lead">Mind Your Space</h1>
+            </div>
+		</div>
+	</header>
+	<!-- /Header -->
+	<style>
+		body {
+ --nav-height: 100px;   
+  
+			}
+
+		.nav {
+		 width: 100%;
+ 		 height: var(--nav-height);
+ 		 position: fixed;
+			}	
+		.nav--hidden {
+ 			transform: translateY(calc(-1 * var(--nav-height)));
+ 			box-shadow: none;
+					}
+		.size{
+				
+				height: 30em;
+				width: 300em;
+		}
+		.logo{
+				height: 3em;
+				width: 3em;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+		}			
+   </style>
+	<!-- Intro -->
+	
+	<article class="col-sm-8 maincontent">
+		<header class="page-header">
+			<h1 class="page-title">About us</h1>
+		</header>
+		<h3>General information</h3>
+		<p><img src="assets/images/mac.jpg" alt="" class="img-rounded pull-right" width="300" > This site has covered 8-9 topics of Astronmy whose basics can be understood be anyone</p>
+		<p>You don't need a degree to understand the information presented here. </p>
+		<h3>Did I do this alone?</h3>
+		<p>Yes, I made the website and had 2-3 of my friends to honour of beta testers and on their recommendation the webpage has been edited heavily. </p>
+		<h3>What about the youtube video embeds</h3>
+		<p>It is a win-win situation here the youtuber will get more audience and I do not get the credit for the video he has made. Unlike the fake likes and subscribers 
+			the youtuber will get audience that is intrested in his content because you will be visiting this site mostly if you have intrest in space science, which
+			is also the primary content material for the youtuber also.  </p>
+		<h3>Why does your source code have css attributes in the class attributes (html)</h3>
+		<p>Firstly, naming convection is made easier</p>
+		<p>Next, I am using imported/online css like tailwind css. You don't need a separate css file you can just type it in the class attribute. I  find it convenient(used bootstrap for the design of navbar and footer) </p>
+		<h3>I am not able to comment what to do?</h3>
+		<p>Do not panic, just click on the name field and login or click the checkerbox which says
+		<b>"I'd rather post as guest."</b> On the right side you should be able to see an arrow click it to comment. Remember if you comment as a guest your comment
+	will not come immediately as it needs to pass moderation. I would prefer that you click on the login button and 
+	link your google, twitter or disqus account </p>
+	</article>
+	<!-- /Article -->
+	
+	<!-- Sidebar -->
+	<aside class="col-sm-4 sidebar sidebar-right">
+
+		<div class="widget">
+			<h4>Have you read these yet?</h4>
+					<ul class="list-unstyled list-spaces">
+						<li><a href="gravity.html">Foundation of gravity</a><br><span class="small text-muted">Was apple falling on Newton's head the only thing that resulted him finding gravity</span></li>
+						<li><a href="how_satellite_stays.html">How satellites stay in orbit</a><br><span class="small text-muted">When is NASA predicting the crashing of a satellite</span></li>
+						<li><a href="black-hole.html">Black holes</a><br><span class="small text-muted">How is the kinetic velocity of the black so immense that sometimes even light can not escape</span></li>
+						<li><a href="hypernova.html">Hypernovas</a><br><span class="small text-muted">Same as Super nova?</span></li>
+						<li><a href="Magnetosphere.html">Magnetosphere</a><br><span class="small text-muted">Find how aurora biosphere is formed</span></li>
+						<li><a href="neutron-star.html">Neutron Stars</a><br><span class="small text-muted">Are these dead stars still BIG?</span></li>
+						<li><a href="lagrange.html">Lagrange points</a><br><span class="small text-muted">Lagrange points, it's not a name much heard of, but it's one of the most important and intriguing topics in the field of Space Science. </span></li>
+						<li><a href="heliosphere.html">Heliosphere</a><br><span class="small text-muted">Magnetosphere of the sun ?</span></li>
+					</ul>
+		</div>
+
+	</aside>
+	<!-- /Sidebar -->
+
+</div>
+</div>	<!-- /container -->
+
+	<!-- /Intro-->
+	
+
+	
+	<div id="disqus_thread"></div>
+	<script>
+
+		/**
+		embded comment section from disqis
+		};
+		*/
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://mindursp.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contact</h3>
+						<div class="widget-body">
+							<p>+91 95388 48338<br>
+								<a href="mailto:#">reyansh.ranjan07@gmail.com</a><br>
+								<br>
+								#F - 1124, Brigade Lakefront, Near SAP labs, EPIP Zone
+								,Mahadevpura 
+							</p>	
+						</div>
+					</div>				
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2022,  Reyansh. 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>	
+		
+
+	
+	<script src = "h.js"></script>
+</body>
+</html>
