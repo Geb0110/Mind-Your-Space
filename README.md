@@ -17,5 +17,5 @@ Features
 
 Credits
 -------
-* Design and development: **Reyansh** - https://github.com/Geb0110
+* Design nd development: **Reyansh** - https://github.com/Geb0110
 * Photos used in template: **Unsplash** - http://unsplash.com
